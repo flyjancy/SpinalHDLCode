@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/fengrui/Desktop/SpinalHDLCode/src/main/scala/Gate/Gate.scala:9:10: reassignment to val[0m
+[0m[[0m[31merror[0m] [0m[0m    io.c = io.a & io.b;[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
