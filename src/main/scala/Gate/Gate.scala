@@ -11,6 +11,7 @@ case class Gate ( WIDTH: Int ) extends Component {
 
 object GateVerilog {
     def main( args: Array[String] ) {
-        SpinalVerilog( new Gate(4) )
+        // SpinalVerilog( new Gate(4) )
+        SpinalConfig( targetDirectory = "rtl" ).generateVerilog( Gate(WIDTH = 4) )
     }
 }
