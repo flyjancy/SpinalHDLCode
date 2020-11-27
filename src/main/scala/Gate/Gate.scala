@@ -1,6 +1,6 @@
 import spinal.core._
 
-case class Gate (WIDTH: Int) extends Component {
+case class Gate ( WIDTH: Int ) extends Component {
     val io = new Bundle {
         val a = in  Bits( WIDTH bits )
         val b = in  Bits( WIDTH bits )
@@ -10,7 +10,7 @@ case class Gate (WIDTH: Int) extends Component {
 }
 
 object GateVerilog {
-    def main(args: Array[String]){
+    def main( args: Array[String] ) {
         SpinalVerilog( new Gate(4) )
     }
 }
