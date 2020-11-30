@@ -1,2 +1,2 @@
 all:
-	sbt run
+	sbt run "GateVerilog"
