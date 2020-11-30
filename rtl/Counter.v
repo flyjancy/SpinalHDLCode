@@ -1,28 +1,24 @@
 // Generator : SpinalHDL v1.4.2    git head : 2c032a36d16369d91b3535edc9f55eb548bda996
 // Component : Counter
-// Git hash  : 3da12ee54cc63fe99f45584d0b8c29e75ae50270
+// Git hash  : d4684327ef107feb5b6478462234606758cc3af0
 
 
 
 module Counter (
-  input               io_rst,
+  input               io_clk,
+  input               io_rstn,
   input               io_en,
-  output     [3:0]    io_value,
-  input               clk,
-  input               reset
+  output     [3:0]    io_value
 );
-  reg        [3:0]    register_1;
+  reg        [3:0]    myArea_myReg;
 
-  assign io_value = register_1;
-  always @ (posedge clk or posedge reset) begin
-    if (reset) begin
-      register_1 <= 4'b0000;
+  assign io_value = myArea_myReg;
+  always @ (posedge io_clk or negedge io_rstn) begin
+    if (!io_rstn) begin
+      myArea_myReg <= 4'b0000;
     end else begin
       if(io_en)begin
-        register_1 <= (register_1 + 4'b0001);
-      end
-      if(io_rst)begin
-        register_1 <= 4'b0000;
+        myArea_myReg <= (myArea_myReg + 4'b0001);
       end
     end
   end
