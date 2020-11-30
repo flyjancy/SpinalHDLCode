@@ -1,2 +1,4 @@
-all:
-	sbt run "GateVerilog"
+gate:
+	sbt "runMain GateVerilog"
+counter:
+	sbt "runMain CounterVerilog"
