@@ -7,15 +7,31 @@ class Decoder extends Component {
         val dataOut = out Bits( 8 bits )
     }
     //todo
-    switch ( in ) {
-        is (0) dataOut = 
-        is (1) dataOut = 
-        is (2) dataOut = 
-        is (3) dataOut = 
-        is (4) dataOut = 
-        is (5) dataOut = 
-        is (6) dataOut = 
-        is (7) dataOut = 
+    switch ( io.dataIn ) {
+        is (0) {
+            io.dataOut := B"8'0000_0001"
+        }
+        is (1) {
+            io.dataOut := B"8'0000_0010"
+        }
+        is (2) {
+            io.dataOut := B"8'0000_0100"
+        }
+        is (3) {
+            io.dataOut := B"8'0000_1000"
+        }
+        is (4) {
+            io.dataOut := B"8'0001_0000"
+        }
+        is (5) {
+            io.dataOut := B"8'0010_0000"
+        }
+        is (6) {
+            io.dataOut := B"8'0100_0000"
+        }
+        is (7) {
+            io.dataOut := B"8'1000_0000"
+        }
     }
 }
 
