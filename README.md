@@ -1,24 +1,25 @@
 # SpinalHDLCode
-Code when I study SpinalHDL
+This repository contains common cells when I learn SpinalHDL.
 
 ## Module List
-### Combinational
-Gate                (Finish)
-
-Decoder             (Finish)
-
-MUX                 (TODO)
-
-Adder               (TODO)
+This repository currently contains the following cells, ordered by categories.
+### Basic module
+| Name    | Description   | Status |
+| :--:    | :---------:   | "----: |
+| Gate    | basic gate    | finish |
+| Decoder | 3to8 decoder  | finish |
+| MUX     |     | todo |
+| Adder   |     | todo |
 
 ### Sequential
-Counter             (Finish)
-
-TrafficLight        (TODO)
-
-Timer               (TODO)
+| Name         | Description                           | Status |
+| :--:         | :---------:                           | "----: |
+| Counter      | 8bit counter with reset and enable    | finish |
+| TrafficLight |   | todo |
+| Timer     |     | todo |
 
 ### Advanced
-UART                (TODO)
-
-FIFO                (TODO)
+| Name         | Description                           | Status |
+| :--:         | :---------:                           | "----: |
+| UART |   | todo |
+| FIFO     |     | todo |
