@@ -5,7 +5,7 @@ This repository contains common cells when I learn SpinalHDL.
 This repository currently contains the following cells, ordered by categories.
 ### Basic module
 |           Name          |                     Description                     |    Status    | 
-|-------------------------|-----------------------------------------------------|--------------|
+|:-----------------------:|:---------------------------------------------------:|:------------:|
 | `Gate`                  | Basic logic gate                                    | finish       |
 | `Decoder`               | Basic 3to8 decoder                                  | finish       |
 | `MUX`                   |                       | *todo*       |
