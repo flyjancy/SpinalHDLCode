@@ -13,7 +13,7 @@ This repository currently contains the following cells, ordered by categories.
 | `Adder`                 |                       | *todo*       |
 
 
-### Sequential
+### Basic sequential
 
 |           Name          |                     Description                     |    Status    | 
 |:-----------------------:|:---------------------------------------------------:|:------------:|
@@ -22,7 +22,7 @@ This repository currently contains the following cells, ordered by categories.
 | `Time`                  |                       | *todo*       |
 
 
-### Advanced
+### Data Trans
 
 |           Name          |                     Description                     |    Status    | 
 |:-----------------------:|:---------------------------------------------------:|:------------:|
