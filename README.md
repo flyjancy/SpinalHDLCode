@@ -30,4 +30,3 @@ This repository currently contains the following cells, ordered by categories.
 |:-----------------------:|:---------------------------------------------------:|:------------:|
 | `UART`                  |                       | *todo*       |
 | `FIFO`                  |                       | *todo*       |
-1
