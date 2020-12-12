@@ -6,7 +6,6 @@ class Decoder extends Component {
         val dataIn  = in UInt( 3 bits )
         val dataOut = out Bits( 8 bits )
     }
-    //todo
     switch ( io.dataIn ) {
         is (0) {
             io.dataOut := B"8'0000_0001"
