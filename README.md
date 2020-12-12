@@ -23,7 +23,7 @@ This repository currently contains the following cells, ordered by categories.
 | :-: | :-: | :-: |
 | `Counter` | 4bit counter with reset and enable | finish |
 | `TrafficLight` |   | *todo* |
-| `Time` |   | *todo* |
+| `Timer` |   | *todo* |
 
 ### Data Trans
 
@@ -32,3 +32,5 @@ This repository currently contains the following cells, ordered by categories.
 | :-: | :-: | :-: |
 | `UART` |   | *todo* |
 | `FIFO` |   | *todo* |
+
+## Simulation
