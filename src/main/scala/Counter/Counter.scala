@@ -32,5 +32,8 @@ case class Counter ( WIDTH : Int ) extends Component {
 object CounterVerilog {
     def main( args: Array[String] ) {
         SpinalConfig( targetDirectory = "rtl" ).generateVerilog( new Counter( WIDTH = 4 ) )
+        // SpinalConfig( targetDirectory = "rtl" ).generateVerilog( new Counter )
+        // why must WIDTH=4
+        // how to generate a module with configurable parameter
     }
 }
