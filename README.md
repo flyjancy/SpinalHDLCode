@@ -14,7 +14,8 @@ This repository currently contains the following cells, ordered by categories.
 | `Gate` | basic logic gate | finish |
 | `Decoder` | basic 3to8 decoder | finish |
 | `MUX` |   | *todo* |
-| `Adder` |   | *todo* |
+| `Adder` | 1bit adder | finish |
+| `Adder32` | 32bit adder using 1 bit adder | *todo* |
 
 ### Basic sequential
 
