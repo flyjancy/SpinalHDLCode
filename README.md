@@ -35,3 +35,24 @@ This repository currently contains the following cells, ordered by categories.
 | `FIFO` |   | *todo* |
 
 ## Simulation
+
+There are two ways to simulate:
+
+1. using verilog testbench
+2. calling SpinalHDL simulation API
+
+### Traditional method
+
+```
+cd rtl
+make
+```
+
+`make` will use icarus-verilog to compile design and simulation sources, then
+display waveform using Scansion(better than gtkwave in my opinion).
+
+To change simulation module, just modify `SRC` and `TB` in Makefile.
+
+### SpinalHDL method
+
+TODO
