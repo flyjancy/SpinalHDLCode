@@ -6,7 +6,7 @@ This repository contains common cells when I learn SpinalHDL.
 
 This repository currently contains the following cells, ordered by categories.
 
-### Basic module
+### Combinational Circuits
 
 
 | Name | Description | Status |
@@ -17,7 +17,7 @@ This repository currently contains the following cells, ordered by categories.
 | `Adder` | 1bit adder | finish |
 | `Adder32` | 32bit adder using 1 bit adder | *todo* |
 
-### Basic sequential
+### Sequential Logic
 
 
 | Name | Description | Status |
@@ -26,7 +26,7 @@ This repository currently contains the following cells, ordered by categories.
 | `TrafficLight` |   | *todo* |
 | `Timer` |   | *todo* |
 
-### Data Trans
+### Larger Circuits
 
 
 | Name | Description | Status |
